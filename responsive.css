@@ -1,0 +1,216 @@
+
+@media (max-width: 780px){
+
+    form > input{
+        width: 15rem;
+    }
+
+    .hero_section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_main{
+        padding: 15px 15px 15px 15px;
+    }
+
+    .arrivals{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        place-items: center;
+    }
+
+    .hero_section_right{
+        display: contents;
+        justify-content: center;
+    }
+
+    .hero_section_left{
+        margin-left: 8%;
+    }
+
+    .mid_star img{
+        top: 800px;
+        left: 50px;
+    }
+
+    .main_para{
+        padding-right: 10%;
+    }
+}
+
+/* small devices */
+@media (max-width: 425px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    form{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    input[placeholder]{
+        padding-left: 3rem;
+    }
+
+    form > input{
+        width: 15rem;
+        
+    }
+
+    .header{
+        border-bottom: 0.5px solid #00000099;
+    }
+
+    .logo_img img{
+        width: 155px;
+        height: 50px;
+        margin: auto;
+
+    }
+    .hero_section{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+
+    .main_heading{
+        font-size: 32px;
+        line-height: 44px;
+        vertical-align: middle;
+        width: 335px;
+    }
+
+    .main_para{
+        width: 370px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0%;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .shop_now_btn, .view_all_category_btn{
+        padding: 12px 35px;
+        font-size: 10px;
+    }
+
+    .arrivals{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .customers{
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .customers_1{
+        border: none;
+    }
+
+    .hero_section_right > .hero_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .last_star img{
+        top: 163%;
+    }
+
+    .mid_star img{
+        top: 190%;
+        left: 8%;
+    }
+
+    .section_main{
+        padding: 20px 0px;
+        border-radius: none;
+    }
+
+    .heading{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    width: 250px;
+    margin: auto;
+    }
+
+    .upper_img, .lower_img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .casual_img{
+        width: 100%;
+    }
+
+    .casual_img img, .formal_img img, .party_img img, .gym_img img{
+        margin: auto;
+        object-fit: cover;
+        border-radius: 0;
+        margin-left: 0%;
+    }
+
+    .clothes{
+        margin-bottom: 20px;
+    }
+
+    .footer_section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_asso{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .reviews{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review{
+        margin: 2% 0% 2% 0%;
+    }
+}
+
+@media (max-width: 375px){
+
+    .main_para{
+        width: 320px;
+    }
+    
+}
+
+@media (max-width: 320px){
+
+    .main_heading{
+        width: 280px;
+    }
+
+    .main_para{
+        width: 280px;
+    }
+
+    .logo_img img{
+        margin: auto;
+    }
+}
+
+
+
